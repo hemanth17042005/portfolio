@@ -1,0 +1,84 @@
+/* ======= GLOBAL ======= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ======= HEADER ======= */
+.header {
+  background-color: #1e3a8a;      /* deep blue */
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;                      /* space between image & name */
+}
+
+.profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;             /* make it round */
+  border: 2px solid #ffffff;
+  object-fit: cover;              /* keep aspect ratio */
+}
+
+.profile h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #cbd5e1;                 /* light gray‑blue */
+}
+
+/* ======= SECTIONS ======= */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;                 /* center on page */
+}
+
+h2 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* ======= PROJECT LIST ======= */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e0f2fe;      /* pale blue */
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+/* ======= LINKS ======= */
+a {
+  color: #1e40af;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
